@@ -1,7 +1,6 @@
-# harmonic-barcode
-
-Research project at DePaul University on tracking the persistence of harmonic
-chains through barcodes and stability analysis.
+# Novel Topological Descriptors for Topological Data Analysis
+Research project at DePaul University developing harmonic chain barcodes as
+novel topological descriptors for shape and point cloud analysis.
 September 2025 - Present.
 
 ## Research Problem
