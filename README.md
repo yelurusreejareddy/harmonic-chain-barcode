@@ -26,11 +26,11 @@ and remain stable across different inputs.
 ## Experiments
 
 **Shape Experiments**
-Testing the harmonic barcode pipeline on standard geometric shapes to evaluate
+Testing the harmonic persistence barcode pipeline on standard geometric shapes to evaluate
 how well the extracted features distinguish different topologies.
 
 **Random Point Cloud Experiments**
-Generating random point clouds and testing whether harmonic barcode features
+Generating random point clouds and testing whether harmonic persistence barcode features
 can identify structural patterns across many randomly generated inputs.
 
 ## Stack
@@ -39,7 +39,5 @@ Python, GUDHI, NumPy, SciPy, scikit-learn
 
 ## Status
 
-## Status
-
 Implementation complete. Running comparison experiments against traditional
-persistence barcodes using SVM classifiers. We will be publishing it soon.
+persistence barcodes using SVM classifiers.
