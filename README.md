@@ -1,14 +1,14 @@
 # Novel Topological Descriptors for Topological Data Analysis
-Research project at DePaul University developing harmonic chain barcodes as
+Research project at DePaul University developing harmonic persistence barcodes as
 novel topological descriptors for shape and point cloud analysis.
 September 2025 - Present.
 
 ## Research Problem
 
 Standard persistence barcodes capture when topological features are born and die
-but discard the actual geometric representatives that carried them. Harmonic chain
-barcodes preserve those representatives - extracting the cycle generators that span
-each persistent homology class and carrying richer geometric information than
+but discard the actual geometric representatives that carried them. Harmonic persistence
+barcodes preserve those representatives by extracting the harmonic chains that span
+each persistent homology class, carrying richer geometric information than
 birth-death pairs alone.
 
 This project investigates how these harmonic chain representatives behave, persist,
@@ -39,4 +39,7 @@ Python, GUDHI, NumPy, SciPy, scikit-learn
 
 ## Status
 
-Implementation in progress.
+## Status
+
+Implementation complete. Running comparison experiments against traditional
+persistence barcodes using SVM classifiers. We will be publishing it soon.
